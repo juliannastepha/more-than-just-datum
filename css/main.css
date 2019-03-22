@@ -1,4 +1,4 @@
-html{
+html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -20,6 +20,18 @@ section {
 
 .table-wrapper table {
   min-width: 45em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pad-bottom-half, .pad-b-1-2 {
+    padding-bottom: .2rem;
+  }
+
+  .logo {
+    max-width: 175px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
